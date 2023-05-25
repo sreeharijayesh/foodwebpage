@@ -90,3 +90,15 @@ nav ul li a:hover:before{
     margin-top: 70px;
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
 }
+/*------ custom scrollbar--------*/
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#7debbf, #80f174);
+    border-radius: 10px;
+}
